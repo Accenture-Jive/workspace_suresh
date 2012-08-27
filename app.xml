@@ -15,16 +15,16 @@
    - limitations under the License.
   -->
 <Module>
-    <ModulePrefs title="Workspace_Suresh"
+    <ModulePrefs title="Workspace"
                 author="Jive Software"
-           description="Manage social groups">
+           description="Manage the social groups on this Jive instance">
         <Link rel="Icon" href="group-icon.png"/>
         <Require feature="dynamic-height"/>
-        <Require feature="jive-core-v3"/>
+        <Require feature="jive-core-v2"/>
         <Require feature="jquery-1.4.2"/>
         <Require feature="minimessage"/>
         <Require feature="osapi"/>
         <Require feature="views"/>
     </ModulePrefs>
-    <Content view="home, canvas" type="html" href="social-groups.html"/>
+    <Content view="home, canvas" type="html" href="group-management.html"/>
 </Module>
